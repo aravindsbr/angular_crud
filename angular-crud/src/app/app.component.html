@@ -86,10 +86,10 @@
               <th>Delete</th>
               <th>View</th>
             </tr>
-            <tr>
-              <td>Joe</td>
-                <td>J@Info.com</td>
-                <td>2323456</td>
+            <tr *ngFor="let userData of usersData">
+              <td>{{userData.firstName}}</td>
+              <td>{{userData.email}}</td>
+              <td>{{userData.phoneNumber}}</td>
               <td><button class="ed">Edit</button></td>
               <td><button class="ed" style="background:#f00;">Delete</button></td>
               <td><button class="ed"style="background:#000;">View</button></td>
