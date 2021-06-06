@@ -1,0 +1,55 @@
+.nav-label{
+    color:#1E202F;
+    font-family: 'Mulish', sans-serif;
+}
+
+.signup-button{
+    font-family: 'Mulish', sans-serif;
+    border-radius: 0%;
+    color: #4099F1;
+    border-color: #4099F1;
+}
+
+.left-col-content{
+    text-align: left;
+    font: normal normal bold 10em;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0.45px;
+    color: #1E202F;
+    opacity: 1;
+}
+
+h1{
+    font-style: bold;
+}
+
+.pick-a-plan{
+    width: 144px; 
+    height: 52px; 
+    background: #4099F1;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 0%;
+}
+
+.nav-label-footer{
+    color:#212B36;
+    font-family: 'Mulish', sans-serif;
+}
+
+.explore-label{
+    font-family: 'Merriweather', serif;
+    color: #1E202F;
+    font-size: 32px;
+}
+
+.little-blue-line{
+    border: 1px solid #4099F1;
+    width: 32px;
+    margin-top: 1%;
+}
+
+.blog-label{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color:#4099F1;
+}

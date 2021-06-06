@@ -74,7 +74,7 @@ export class LandingPageComponent implements OnInit {
 
   onDelete(id){
     this.crudApiService.deleteData(id).subscribe((res) => {
-      window.open("/","_self")
+      window.open("/home","_self")
     })
   }
 }

@@ -7,13 +7,15 @@ import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 import { EditFormComponent } from './edit-form/edit-form.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ViewComponent } from './view/view.component';
+import { HTMLSlicingComponent } from './html-slicing/html-slicing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EditFormComponent,
     LandingPageComponent,
-    ViewComponent
+    ViewComponent,
+    HTMLSlicingComponent
   ],
   imports: [
     BrowserModule,
