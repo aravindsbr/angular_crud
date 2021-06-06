@@ -9,11 +9,24 @@ import { Observable } from 'rxjs';
 })
 export class CrudApiService {
   private apiUrl = environment.baseUrl;
+  private options = { headers: new HttpHeaders().set('Content-Type', 'application/json') };
 
   constructor(private http: HttpClient) {  }
 
   getData(): Observable<any> {
     // return this.http.get(this.apiUrl).pipe(map(data => data));
     return this.http.get(this.apiUrl)
- }
+  }
+
+  postData(formValues) {
+    this.http.post(this.apiUrl, formValues).subscribe(
+      (res) => {
+        alert ("Details added successfully!");
+      },
+      (err) => {
+        console.log(err)   
+        }
+    );   
+  }
+
 }

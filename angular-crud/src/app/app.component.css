@@ -1296,25 +1296,7 @@ html {
       margin-top: -34px;
   }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  .invalid{
+    color: red;
+    font-size: 15px;
+  }
