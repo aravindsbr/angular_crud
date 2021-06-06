@@ -14,7 +14,6 @@ export class CrudApiService {
   constructor(private http: HttpClient) {  }
 
   getData(): Observable<any> {
-    // return this.http.get(this.apiUrl).pipe(map(data => data));
     return this.http.get(this.apiUrl)
   }
 
@@ -24,9 +23,13 @@ export class CrudApiService {
         alert ("Details added successfully!");
       },
       (err) => {
-        console.log(err)   
+        alert ("Error in submitting the form!")   
         }
     );   
+  }
+
+  deleteData(id){ 
+    return this.http.delete(this.apiUrl+id);
   }
 
 }

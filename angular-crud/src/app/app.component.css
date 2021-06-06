@@ -1158,7 +1158,7 @@ html {
       border:none;
       width:70px;
       font-size:13px;
-          
+      cursor: pointer;
   }
   
   .ed:hover{

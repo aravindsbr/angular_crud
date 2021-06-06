@@ -39,7 +39,7 @@ export class AppComponent {
 
   get f() { return this.bioDataForm.controls; }
 
-  Onsubmitform(){
+  onSubmitForm(){
     this.submitted = true;
 
     if (this.bioDataForm.invalid) {
@@ -67,5 +67,11 @@ export class AppComponent {
 
     let formValues = JSON.stringify(bioDataFormRequestObject)
     this.crudApiService.postData(formValues);
+  }
+
+  onDelete(id){
+    this.crudApiService.deleteData(id).subscribe((res) => {
+      window.open("/","_self")
+    })
   }
 }
