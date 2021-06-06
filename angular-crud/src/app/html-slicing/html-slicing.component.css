@@ -53,3 +53,23 @@ h1{
     font-weight: bold;
     color:#4099F1;
 }
+.card-title{
+    text-align: left;
+    font: normal normal 900 20px/30px 'Merriweather', serif;
+    letter-spacing: 0.42px;
+    color: #1E202F;
+    opacity: 1;
+}
+
+.card-text{
+    text-align: left;
+    font: normal normal normal 12px/23px 'Mulish', sans-serif;
+    letter-spacing: 0.24px;
+    color: #888990;
+    opacity: 1;
+}
+
+.card{
+    border-color: white;
+    border-radius: 0;
+}
