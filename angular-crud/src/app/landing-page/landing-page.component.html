@@ -243,7 +243,7 @@
                 <td>{{userData.phoneNumber}}</td>
                 <td><button class="ed" [routerLink]="['/edit', userData._id]">Edit</button></td>
                 <td><button class="ed" style="background:#f00;" (click)="onDelete(userData._id)">Delete</button></td>
-                <td><button class="ed" style="background:#000;">View</button></td>
+                <td><button class="ed" [routerLink]="['/view', userData._id]" style="background:#000;">View</button></td>
               </tr>
             </tbody>
           </table>

@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 import { EditFormComponent } from './edit-form/edit-form.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { ViewComponent } from './view/view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EditFormComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,

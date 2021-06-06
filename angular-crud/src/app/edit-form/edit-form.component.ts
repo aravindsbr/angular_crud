@@ -58,6 +58,7 @@ export class EditFormComponent implements OnInit {
       
     }
   }
+  
   get f() { return this.bioDataForm.controls; }
 
   onSubmitForm(){
