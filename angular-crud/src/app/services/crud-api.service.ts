@@ -32,4 +32,18 @@ export class CrudApiService {
     return this.http.delete(this.apiUrl+id);
   }
 
+  getDataById(id): Observable<any> {
+    return this.http.get(this.apiUrl+id)
+  }
+
+  updateData(id, formValues) {
+    this.http.put(this.apiUrl+id, formValues).subscribe(
+      (res) => {
+        alert ("Details updated successfully!");
+      },
+      (err) => {
+        alert ("Error in submitting the form!")   
+        }
+    );
+  }
 }
